@@ -1,0 +1,212 @@
+
+.logo{
+  width: 20mm;
+  height: auto;
+}
+
+
+
+.logo-img{
+ 
+  float : left;
+  position : relative;
+  bottom :1.3mm;
+  left : 0.5cm;
+}
+
+.stu_photo{
+  
+  width: 30mm;
+  height: auto;
+}
+
+
+.photo{
+  
+  float : right;
+  position : relative;
+  bottom :-0.3cm;
+  padding-right : 2cm;
+}
+
+
+body {
+margin: 0;
+padding: 0;
+background-color: rgb(190, 190, 196);
+font: 9pt "Franklin Gothic";
+}
+
+
+
+.page {
+width: 19cm;
+height: auto;
+position : relative;
+padding: 10mm;
+margin:  auto;
+background: white;
+border : 1px solid;
+}
+
+
+h1 {
+border-top: 10px solid darkblue;
+}
+
+
+p.thicker {
+font-weight: 700;
+font-size: 16px;  
+letter-spacing: 0.5px;
+text-align: center;
+}
+
+
+/*.header{
+  display:flex;
+}*/
+
+/*.logo_img{
+  width: 20%;
+}
+
+.logo_img1{
+  width: 10%;
+}*/
+
+table {
+
+border-collapse: collapse;
+width: 18cm;
+margin-left:auto;
+margin-right:auto;
+border-color:#101010;
+border: 0.5px solid;
+font-size:10.5px;
+page-break-after:always
+}
+
+td,th {
+padding: 10px;
+border: 0.5px solid;
+border-color:#101010;
+}
+
+tr{
+height : 1.2cm;
+text-align:left;
+page-break-inside: avoid;
+page-break-after: auto;
+}
+
+th {
+background-color: #83d4fdc3;
+color : rgb(55, 28, 150);
+font-size:11px;
+text-align:left;
+}
+
+
+
+.names 
+{
+font-family:Helvetica;
+font-size:12px;
+font-weight:bold;
+}
+
+.float_left
+{
+  padding-left : 1cm;
+}
+
+h2 {
+padding-top:5.5cm;
+}
+
+ul {
+  list-style: none;
+  display: table;
+}
+
+li {
+  display: table-row;
+}
+
+b {
+  display: table-cell;
+  padding-right: 1em;
+}
+
+t {
+  font-family:Helvetica;
+  font-size:12px;
+  font-weight:bold;
+  color : rgb(52, 59, 120);
+}
+
+
+.bottomright {
+  float : right;
+  font-size: 15px; 
+}
+
+.bottomleft {
+  float : left;
+  font-size: 15px;
+}
+
+.bottomleft1 {
+  float : left;
+}
+
+.logo1{
+  width: 3cm;
+  height: 2cm;
+}
+
+.pad{
+  background-color: rgb(144, 144, 177);
+}
+
+#button {
+  background-color: #4caf50;
+  border-radius: 5px;
+  margin-left: 650px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.border {
+  width: 19cm;
+  border: 5px solid transparent;
+  background-color : #83d4fdc3;
+  margin: 0;
+  text-align : center;
+}
+
+.box {
+  padding-right : 2cm;
+}
+.toleft{
+  bottom: 0;
+  position: relative;
+  width:20%;
+  padding: 10px;
+  left: 0;
+  padding-left: 10rem;
+  /* margin-left: 20%; */
+  height:auto;
+}
+.toright{
+  bottom: 0;
+    position: relative;
+    width:30%;
+    margin-left: 60%;
+    padding: 20px;
+    right: 0;
+    height:auto;
+    /* float: right; */
+    bottom:50px;
+}
